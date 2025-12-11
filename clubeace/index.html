@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube de Tênis Ace - A Casa do Seu Jogo</title>
+
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet"> 
+    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        
+        <a class="navbar-brand" href="index.html">
+            <i class="fas fa-tennis-paddle-ball text-success me-2"></i> 
+            Clube Ace
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="equipe.html">Nossa Equipe</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header id="inicio" class="mb-5">
+    
+    <div class="container text-center py-5 bg-light rounded shadow-sm">
+        <h1 class="display-4 text-success fw-bold">BEM-VINDO AO CLUBE DE TÊNIS ACE!</h1>
+        
+        <p class="lead text-muted">Maior ponto de encontro para os apaixonados por tênis.</p>
+    </div>
+<!--Carrosel de boas vindas-->
+    <div id="carouselDestaque" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/ce.png" class="d-block w-100" alt="Novas quadras">
+                <div class="carousel-caption d-none d-md-flex h-100 flex-column justify-content-center text-center">
+                    <h5>Novas quadras disponíveis</h5>
+                    <p>As instalacoes das nossas novas quadras foram feitas no dia 10 de novembro desse ano. Hoje, temos mais de 30 quadras instaladas e todas sao profissionais e de ótima qualidade</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/aulakid.png" class="d-block w-100" alt="Aulas Kids">
+                <div class="carousel-caption d-none d-md-flex h-100 flex-column justify-content-center text-center">
+                    <h5>Escola de Tênis para kids</h5>
+                    <p>Programa especial de tênis para crianças. Com professores certificados que dedicam total atencao as criancas. Nossas turmas do segundo semestre abriram em setembro e fecham em novembro dia 21. Para mais informações acessa a página de serviços</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/campeonatos.png" class="d-block w-100" alt="Campeonatos">
+                <div class="carousel-caption d-none d-md-flex h-100 flex-column justify-content-center text-center">
+                    <h5>Campeonatos internos</h5>
+                    <p>Nós realizamos competicoes internas mensais em nosso clube entre sócios. Nosso próximo campeonato ocorrerá dia 30 de novembro. Se quiser participar entre em contato com o número +55(61)6553-9223</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaque" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaque" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+ </header>
+<main class="container my-5">
+
+    <section id="escolha" class="text-center my-5">
+        
+        <h2 class="display-6 mb-5 text-success fw-bold">Por Que Escolher o Clube Ace?</h2>
+        
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+            
+            <div class="col mb-4">
+                <div class="card h-100 p-3 shadow-sm border-success bg-light">
+                    <div class="card-body">
+                        <i class="fas fa-trophy fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title text-success">Infraestrutura de alta qualidade:</h5>
+                        <p class="card-text">Com mais de 20 quadras que são constantemente cuidadas e preservadas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card h-100 p-3 shadow-sm border-success bg-light">
+                    <div class="card-body">
+                        <i class="fas fa-chalkboard-user fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title text-success">Professores excelentes:</h5>
+                        <p class="card-text">Temos professores certificados e com tratamento especial para cada aluno</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card h-100 p-3 shadow-sm border-success bg-light">
+                    <div class="card-body">
+                        <i class="fas fa-users fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title text-success">Programas personalizados:</h5>
+                        <p class="card-text">Temos diversos programas disponíveis para qualquer idade e nível de experiencia</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Sobre nos parte-->
+<section id="sobre" class="my-5 p-4 border rounded shadow-sm bg-white">
+    
+    <h2 class="text-center mb-5 text-success fw-bold">Nossa História do Clube Ace</h2>
+    
+    <div class="row align-items-center mb-5">
+        
+        <div class="col-md-5">
+            <img src="img/Sobrenos.png" class="img-fluid rounded shadow-sm" alt="Visão geral das quadras do Clube Ace">
+        </div>
+        
+        <div class="col-md-7 mt-3 mt-md-0">
+            <p class="fs-5 fw-bold text-success">Mais de 15 anos compartilhando o nosso amor pelo esporte</p>
+            <p>Fundado em 2007, o Clube Ace tem como propósito criar um espaco em que o tênis pode ser praticado por qualquer um. Oferecemos um ambiente acolhedor com professor de excelentes. Começamos com apenas 4 quadras e hoje somos um dos maiores clubes de Brasília. 
+  Tornamos esse lugar um ponto de encontro para os apaixonados por tênis.  Com quase duas décadas de funcionamento, formamos campeões e promovemos um lugar de grande excelência
+  Esse é o lugar perfeito para você que está pegando a raquete pela primeira vez ou deseja ter uma perfomance profissional na quadra.</p>
+        </div>
+    </div>
+    
+    <div class="row justify-content-center g-4 pt-4 border-top">
+        <!--Cards informacionais(nossa missao e intuito)-->
+        <div class="col-md-5">
+            <div class="card h-100 p-3 bg-light border-success shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-bullseye fa-2x text-warning mb-3"></i>
+                    <h5 class="card-title text-success">Nossa Missão</h5>
+                    <p class="card-text">Nossa principal missão é promover o tênis de uma forma divertida e profissional ao mesmo tempo. Com um ambiente acolhedor e onde qualquer jogador pode desenvolver suas habilidades na quadra</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-5">
+            <div class="card h-100 p-3 bg-light border-success shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-handshake fa-2x text-warning mb-3"></i>
+                    <h5 class="card-title text-success">Nosso Intuito</h5>
+                    <p class="card-text">Nosso principal intuito é ser reconhecido pelo Brasil como uma referência de ensino, infraestrutura e expenciências. Não ter apenas campeões e sim, com valores esportivos.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!--Acrodeao1-->
+<h3 class="text-center mb-4 text-success pt-5 border-top">Perguntas Frequentes sobre o Clube</h3>
+
+<div class="accordion" id="accordionGeral">
+    
+    <div class="accordion-item shadow-sm mb-3">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed fw-bold text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <i class="fas fa-question-circle me-2 text-warning"></i> Quantas quadras o Clube Ace possui e qual o tipo de piso?
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionGeral">
+            <div class="accordion-body">
+                <p>Hoje em dia, o Clube Ace tem mais de 30 quadras instaladas e todas sao profissionais e de ótima qualidade</p>
+                <p class="small text-muted mb-0">Todas as quadras são bem iluminadas e conservadas pelos nossos funcionários.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item shadow-sm mb-3">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed fw-bold text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-question-circle me-2 text-warning"></i> O que está incluído na mensalidade de Sócio do Clube?
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionGeral">
+            <div class="accordion-body">
+                <p>A mensalidade de Sócio do Clube inclui diversas coisas como o acesso as aulas oferecidas, reserva de quadras, sala wellness, lanchonete com variedade de comidas saudáveis, estacionamento gratuito, WI-FI, etc. </p>
+                <p class="small text-muted mb-0">As aulas de tênis e aluguel de quadras são serviços adicionais.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="accordion-item shadow-sm mb-5">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed fw-bold text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-question-circle me-2 text-warning"></i> Quais são os horários de funcionamento do clube?
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionGeral">
+            <div class="accordion-body">
+                <p>O Clube Ace funciona segunda a sábado de 6h a 21h30.</p>
+                <p class="small text-muted mb-0">De qualquer forma, é recomendável o aluguel prévio das quadras.</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</section>
+<!--Parte de servicos-->
+<section id="servicos" class="my-5 p-4 border rounded shadow-sm bg-light">
+    
+    <h2 class="text-center mb-5 text-success fw-bold">Serviços Oferecidos</h2>
+    
+    <div class="row align-items-center mb-5 pb-4 border-bottom">
+        
+        <div class="col-md-5">
+            <img src="img/Servicoferecido.png" class="img-fluid rounded shadow-sm" alt="Foto de aulas de tênis em grupo">
+        </div>
+        
+        <div class="col-md-7 mt-3 mt-md-0">
+            <p class="lead">Lista de planos disponíveis para qualquer idade e nível de habilidade.</p>
+            <p class="text-muted">Nosso clube é estruturado para atender desde o primeiro contato com a raquete até o treinamento de jogadores profissionais, sempre com foco em técnica, bem-estar e preparo físico e mental.</p>
+        </div>
+    </div>
+    
+    <h3 class="text-center mb-4 text-success">Planos de Aulas</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+       <!--Cards de servicos oferecidos--> 
+        <div class="col">
+            <div class="card h-100 text-center border-success shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-seedling fa-2x text-warning mb-3"></i>
+                    <h5 class="card-title text-success">Aula Iniciante</h5>
+                    <p class="card-text">Perfeito para quem está começando nesse esporte.</p>
+                    <!--Lista de informacoes-->
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>1h30 por aula</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo de 4 pessoas</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>2 vezes na semana</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Contrate o servico em contato</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>R$ 300 por mês</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100 text-center border-success shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-handshake-angle fa-2x text-warning mb-3"></i>
+                    <h5 class="card-title text-success">Aula Intermediária</h5>
+                    <p class="card-text">Ótimo para quem deseja aperfeiçoar suas habilidades. Trabalhamos consistência, controle de profundidade e rotação de golpes.</p>
+                    <!--Lista de infromacoes-->
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>1h30 por aula</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo de 4 pessoas</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>2 vezes na semana</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Contrate o servico em contato</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>R$ 350 por mês</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100 text-center border-success shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-fire-flame-curved fa-2x text-warning mb-3"></i>
+                    <h5 class="card-title text-success">Aula Avançada</h5>
+                    <p class="card-text">Treinos intensivos com muita técnica. Foco em tática de jogo, saque especializado e preparo mental para competições.</p>
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>2h por aula</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo de 3 pessoas</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>3 vezes na semana</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Contrate o servico em contato</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>R$ 450 por mês</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Arcodeao2-->
+<h3 class="text-center mb-4 text-success pt-4 border-top">Dúvidas Frequentes</h3>
+
+    <div class="accordion" id="accordionServicos">
+        
+        <div class="accordion-item shadow-sm mb-3">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed fw-bold text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <i class="fas fa-question-circle me-2 text-warning"></i> Como funciona o clube de tênis Ace?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionServicos">
+                <div class="accordion-body">
+                    <p>Nossa escola oferece um método progressivo, começando aos poucos e adaptando as necessidades do aluno. Por isso nossa equipe é bem especializada e sempre tenta ajudar todos da melhor forma. Os horários são diversos e as turmas são divididas por nível de experiencia (Iniciante, Intermediário e Avançado) e idade.</p>
+                    <p class="small text-muted mb-0">Oferecemos aulas em grupo ou particulares para um aprendizado eficiente.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item shadow-sm mb-5">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <i class="fas fa-question-circle me-2 text-warning"></i> Eu preciso ter meu próprio equipamento?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionServicos">
+                <div class="accordion-body">
+                    <p>Para as aulas experimentais e iniciantes, o clube Ace oferece os instrumentos básicos para praticar o esporte como raquete e bolas sem custo adicional. Para os alunos de planos Intermediário e Avançado, recomendamos que o aluno traga o seu próprio equipamento para as aulas.</p>
+                    <p class="small text-muted mb-0">As mensalidades incluem acesso às aulas contratadas, mas não inclue a aluguel de quadras fora dos horários de aula.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div> 
+    
+    <div class="row pt-4 border-top">
+    
+    <div class="row pt-4 border-top">
+        
+        <div class="col-md-6">
+            <h3 class="text-success mb-3">Serviços Avulsos</h3>
+            
+            <div class="mb-3">
+                <p class="fw-bold mb-0">Aula Kids</p>
+                <!--Lista servicos avulsos-->
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>1h por aula</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo de 4 pessoas</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>R$ 250 por mês </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <p class="fw-bold mb-0">Aula Particular</p>
+               <!--Lista servicos avulsos-->
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>1h30h de aula</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo de 1 pessoa</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>R$ 150 por aula</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <p class="fw-bold mb-0">Aluguel de Quadras</p>
+           <!--Lista servicos avulsos-->
+                <div class="mx-auto">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning  me-2"></i>R$ 100 por hora</li>
+                        <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i>Máximo: indefinido</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <h3 class="text-success mb-3">Incluído para Sócios</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> 25 quadras profissionais disponíveis</li>
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> Wi-fi em todo o clube</li>
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> Lanchonete</li>
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> Loja esportiva</li>
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> Estacionamento gratuito</li>
+                <li class="list-group-item bg-light"><i class="fas fa-check-circle text-warning me-2"></i> Sala de wellness (sauna, cadeiras massageadoras e spa)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Depoimentos-->
+<section id="depoimentos" class="my-5 p-4 bg-success text-white shadow-lg">
+    <h2 class="text-center mb-5 fw-bold display-6">O Que Nossos Membros Dizem:</h2>
+
+    <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Depoimento 1"></button>
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="1" aria-label="Depoimento 2"></button>
+            <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="2" aria-label="Depoimento 3"></button>
+        </div>
+        
+        <div class="carousel-inner p-4">
+            
+            <div class="carousel-item active">
+                <div class="text-center">
+                    <i class="fas fa-quote-left fa-3x text-warning mb-3"></i>
+                    <p class="fs-5 fst-italic mx-auto" style="max-width: 800px;">
+                        "O meu nível de experiencia com o esporte aumentou drasticamente gracas ao clube Ace! Os professores sao excelentes e muito prestativos, nao me imagino fazendo parte de outro clube!"
+                    </p>
+                    <p class="fw-bold mt-4">- Lucca Valentino, Membro desde 2020</p>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="text-center">
+                    <i class="fas fa-quote-left fa-3x text-warning mb-3"></i>
+                    <p class="fs-5 fst-italic mx-auto" style="max-width: 800px;">
+                        "O melhor lugar para a família! Eu, meu marido e meus filhos fazemos aulas juntos todo o sábado. Tem sido a melhor experiencia para minha família e nós amamos o professor Gilberto."
+                    </p>
+                    <p class="fw-bold mt-4">- Mariana Sampaio, Mãe e jogadora desde 2023</p>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="text-center">
+                    <i class="fas fa-quote-left fa-3x text-warning mb-3"></i>
+                    <p class="fs-5 fst-italic mx-auto" style="max-width: 800px;">
+                        "As quadras são bem preservadas e bem cuidadas. Além disso, a nossa sala de bem-estar e nossa lanchonete fitness é o diferencial do nosso clube. Não é só um lugar para jogar, é um ponto de encontro para apaixonados pelo esporte!"
+                    </p>
+                    <p class="fw-bold mt-4">- Ricardo Almeida, Sócio desde 2015</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+        
+    </div>
+</section>
+<!--Contato-->
+<section id="contato" class="my-5 p-4 border rounded shadow-sm bg-white">
+    <h2 class="text-center mb-5 text-success fw-bold">Junte-se ao Clube! Formulário de Inscrição</h2>
+    
+    <div class="row">
+        
+        <div class="col-md-6 mb-4">
+            <h3 class="text-muted mb-3">Quero ser um Membro Ace</h3>
+            
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone de Contato</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(99) 99999-9999" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" required>
+                </div>
+                 <div class="mb-3">
+                    <label for="interesse" class="form-label">Principal Interesse no Clube</label>
+                    <select class="form-select" id="interesse" required>
+                        <option selected>Selecione uma opção...</option>
+                        <option value="aulas">Aulas de Tênis</option>
+                        <option value="reserva">Reserva de Quadras</option>
+                        <option value="torneios">Participação em Torneios</option>
+                        <option value="socio">Quero ser Sócio do Clube</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem (Opcional)</label>
+                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg"><i class="fas fa-sign-in-alt me-2"></i> Enviar Inscrição</button>
+            </form>
+        </div>
+        
+        <div class="col-md-6">
+            <h3 class="text-muted mb-3">Onde Estamos Localizados</h3>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2181.8682560411203!2d-47.952294187837595!3d-15.853762583844954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1765403030139!5m2!1spt-PT!2sbr" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="rounded shadow"
+></iframe>
+        </div>
+    </div>
+</section>
+    </main>
+<main class="container my-5">
+    </main>
+<!--Footer-->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <div class="mb-3">
+            <h5 class="text-warning mb-3">Siga o Clube Ace</h5>
+            
+            <a href="https://www.instagram.com/" target="_blank" class="text-white mx-2 fs-4">
+                <i class="fab fa-instagram"></i> </a>
+            <a href="https://www.facebook.com/" target="_blank" class="text-white mx-2 fs-4">
+                <i class="fab fa-facebook-f"></i> </a>
+            <a href="https://www.twitter.com/" target="_blank" class="text-white mx-2 fs-4">
+                <i class="fab fa-twitter"></i> </a>
+            <a href="https://www.youtube.com/" target="_blank" class="text-white mx-2 fs-4">
+                <i class="fab fa-youtube"></i> </a>
+        </div>
+        
+        <p class="mb-0 border-top pt-3 border-secondary">
+            &copy; 2025 Clube de Tênis Ace. Todos os direitos reservados.
+        </p>
+    </div>
+</footer>
+
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script> 
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

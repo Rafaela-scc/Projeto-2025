@@ -1,0 +1,115 @@
+
+:root {
+    --cor-principal: #28a745; 
+    --cor-secundaria: #ffc107; 
+    --cor-fundo: #f8f9fa; 
+    --cor-texto: #343a40;
+    --cor-detalhe: #1e7e34;
+}
+
+/* Aplicar a cor de fundo e fonte base */
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Títulos principais em negrito com a cor do clube */
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+/* Ajuste nas seções principais */
+section {
+    padding: 60px 0;
+}
+
+/* Ajusta a navbar para centralizar o conteúdo */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Cor dos links da navbar */
+.nav-link {
+    color: var(--cor-texto) !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--cor-principal) !important;
+    font-weight: 600;
+}
+
+/* Estilo para o banner de boas-vindas */
+header#inicio .bg-light {
+    border: 3px solid var(--cor-principal);
+    margin-bottom: -1px !important; 
+}
+
+/* Estilo do Carrossel de Destaque */
+#carouselDestaque .carousel-item img {
+    max-height: 500px; 
+    object-fit: cover;
+}
+
+/* Estilo da caixa de texto sobre o carrossel */
+#carouselDestaque .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para os cards principais*/
+.card-body i.fa-3x, .card-body i.fa-2x {
+    color: var(--cor-secundaria) !important;
+}
+
+/* Estilo para os cards de planos na seção Serviços */
+#servicos .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-color: var(--cor-detalhe) !important;
+}
+
+#servicos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de planos  */
+.list-group-item.bg-light {
+    background-color: transparent !important;
+    border-color: rgba(0, 0, 0, 0.05); /* Linha divisória */
+}
+
+/* Parte de Depoimentos */
+#depoimentos {
+    background-color: darkgreen !important;
+    color: white !important;
+    border-radius: 10px;
+}
+#depoimentos .text-warning {
+    color: var(--cor-secundaria) !important; 
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-texto) !important; 
+}
+footer .text-warning {
+    color: var(--cor-secundaria) !important; 
+}
+footer .fab {
+    transition: color 0.3s;
+}
+footer .fab:hover {
+    color: var(--cor-secundaria) !important; /* Ícones ficam amarelos ao passar o mouse */
+}
